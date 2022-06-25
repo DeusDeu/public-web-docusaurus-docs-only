@@ -2,15 +2,15 @@ name: DeusDeu/public-web-react
 
 on:
   push:
-    branches: [main]
+    branches: [main,Rwanda]
   pull_request:
-    branches: [main]
+    branches: [main,Rwanda]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: main
+  Branches: main,Rwanda
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm ci
